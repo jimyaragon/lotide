@@ -4,3 +4,5 @@ const assertEqual = require('./assertEqual');
     return array[0];
   
   };
+
+  module.exports = head;
