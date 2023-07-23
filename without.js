@@ -36,21 +36,21 @@
 //     for (let i = 0; i < source.length; i++) {
 //         if (itemsToRemove[i] === source[i]) {
 //             arrayresult += arrayresult[i];
-//         } 
+//         }
 //     } return arrayresult;
 //   }
 let source = [1, 2, 4, 6, 7];
 let itemsToRemove = [4, 7];
 
 function without(source, itemsToRemove) {
-    let result = [];
-    for (let i = 0; i < source.length; i++) {
-        if(itemsToRemove.includes(source[i])) {
+  let result = [];
+  for (let i = 0; i < source.length; i++) {
+    if (itemsToRemove.includes(source[i])) {
 
-        } else {
-            result.push(source[i]);
-        }
-    } return result;
+    } else {
+      result.push(source[i]);
+    }
+  } return result;
 }
 
 
